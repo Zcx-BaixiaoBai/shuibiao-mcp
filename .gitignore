@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local secrets and sessions (never commit)
+.env
+.session.json
+
+# Local tooling / captures
+.mimosa/
+.zcode/
+capture/
+downloads/

@@ -1,0 +1,20 @@
+[project]
+name = "shuibiao-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Zcx-BaixiaoBai", email = "zcx@example.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=2.10",
+    "httpx>=0.28.1",
+]
+
+[project.scripts]
+shuibiao-mcp = "shuibiao_mcp:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
